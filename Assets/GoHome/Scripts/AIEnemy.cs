@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/*
+ * It's AI script for enemies 
+ * 
+ */
+
+
+
 public class AIEnemy : MonoBehaviour
 {
     public Transform target;
@@ -21,4 +28,5 @@ public class AIEnemy : MonoBehaviour
         // Update destination of NavMeshAgent
         agent.SetDestination(target.position);
     }
+
 }
